@@ -73,7 +73,7 @@ All monarch data from the overwintering grounds and covariate data for 2004-2018
     - pcp.Feb: projected precipitation in February
     - pcp.Mar: projected precipitation in March
     - pcp.Apr: projected precipitation in April
-2. [SummerClimateProjections1.csv](Data/SummerClimateProjections1.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the first of three future time periods (2023-2043).
+2. [SummerClimateProjections1a.csv](Data/SummerClimateProjections1a.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the first of three future time periods (2023-2043) and 3 of the 6 GCMs.
     - Scenario: Combinations of Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCPs) that describe different trends in atmospheric greenhouse gases.
     - Year: year
     - Model: GCM
@@ -87,5 +87,8 @@ All monarch data from the overwintering grounds and covariate data for 2004-2018
     - pcp.Jun: projected precipitation in June
     - pcp.Jul: projected precipitation in July
     - pcp.Aug: projected precipitation in August
-3. [SummerClimateProjections2.csv](Data/SummerClimateProjections2.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the mid twenty-first century (2050-2070). Columns are the same as those in SummerClimateProjections1.csv.
-4. [SummerClimateProjections3.csv](Data/SummerClimateProjections3.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the end of the twenty-first century (2080-2100). Columns are the same as those in SummerClimateProjections1.csv.
+3. [SummerClimateProjections1b.csv](Data/SummerClimateProjections2.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the early twenty-first century (2023-2043) and the other 3 GCMs. Columns are the same as those in SummerClimateProjections1a.csv.
+4. [SummerClimateProjections2a.csv](Data/SummerClimateProjections2a.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the mid twenty-first century (2050-2070) and 3 of the 6 GCMs. Columns are the same as those in SummerClimateProjections1a.csv.
+5. [SummerClimateProjections2b.csv](Data/SummerClimateProjections2b.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the mid twenty-first century (2050-2070) and the other 3 GCMs. Columns are the same as those in SummerClimateProjections1a.csv.
+6. [SummerClimateProjections3a.csv](Data/SummerClimateProjectionsa3.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the late twenty-first century (2080-2100) and 3 of the 6 GCMs. Columns are the same as those in SummerClimateProjections1a.csv.
+7. [SummerClimateProjections3b.csv](Data/SummerClimateProjectionsa3b.csv): Projected GDD and precipitation (Apr through Aug) for each county on the summer breeding grounds for the late twenty-first century (2080-2100) and the other 3 GCMs. Columns are the same as those in SummerClimateProjections1a.csv.
