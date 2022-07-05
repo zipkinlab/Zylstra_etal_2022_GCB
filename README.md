@@ -1,6 +1,6 @@
 #  Monarch Population Forecasts
 
-### Pre-review stage
+### After first review
 
 ### Erin R. Zylstra, Naresh Neupane, and Elise F. Zipkin
 
@@ -8,7 +8,7 @@
 _______________________________________________________________________________________________________________________________________
 
 ## Abstract:
-Climate change poses a unique threat to migratory species as it has the potential to alter environmental conditions at multiple points along a species’ migratory route. Here, we evaluated how the eastern North American migratory population of monarch butterflies is likely to respond to climate changes over the next century on both their spring and summer breeding grounds. Our results reveal that projected changes in breeding-season climate are likely to lead to decreases in monarch abundance, with high potential for the overwintering population size to fall below the historical minimum three or more times in the next two decades. Climatic changes across the expansive summer breeding grounds will also cause shifts in the distribution of monarchs, with higher projected abundances in areas that become wetter but not appreciably hotter. Our forecasts highlight the importance of accounting for the impacts of climate changes throughout the full annual cycle of migratory species.
+Climate change poses a unique threat to migratory species as it has the potential to alter environmental conditions at multiple points along a species’ migratory route. The eastern migratory population of monarch butterflies (<i>Danaus plexippus</i>) has declined markedly over the last few decades, in part due to variation in breeding-season climate. Here, we combined a retrospective, annual-cycle model for the eastern monarch population with climate projections within the spring breeding grounds in eastern Texas and across the summer breeding grounds in the midwestern U.S. and southern Ontario, Canada to evaluate how monarchs are likely to respond to climate change over the next century. Our results reveal that projected changes in breeding-season climate are likely to lead to decreases in monarch abundance, with high potential for overwintering population size to fall below the historical minimum three or more times in the next two decades. Climatic changes across the expansive summer breeding grounds will also cause shifts in the distribution of monarchs, with higher projected abundances in areas that become wetter but not appreciably hotter (e.g., northern Ohio) and declines in abundance where summer temperatures are projected to increase well above those observed in the recent past (e.g., northern Minnesota). Although climate uncertainties dominate long-term population forecasts, our analyses suggest that we can improve precision of near-term forecasts by collecting targeted data to better understand relationships between breeding-season climate variables and local monarch abundance. Overall, our results highlight the importance of accounting for the impacts of climate changes throughout the full annual cycle of migratory species. 
 _______________________________________________________________________________________________________________________________________
 
 ## Code
@@ -19,7 +19,6 @@ ________________________________________________________________________________
 All monarch data from the overwintering grounds and covariate data for 2004-2018 are publicly available.  Monarch data from the summer breeding grounds are proprietary and are therefore not publicly available (though we provide descriptions of those data here).  
 1. [YearlyData.csv](Data/Monarchs_winter.csv): Data on overwintering monarch population size and annual covariates. 
     - yr: year 
-    - area.feb: area occupied (ha) by monarch butterflies in February
     - area.dec: area occupied (ha) by monarch butterflies in December
     - spGDD.east: annual growing degree days (GDD) accumulated between 22 Mar and 2 May (weeks 4-9) in eastern Texas
     - spPCP.east: cumulative precipitation (mm) between Feb and Apr in eastern Texas
@@ -79,10 +78,10 @@ All monarch data from the overwintering grounds and covariate data for 2004-2018
     - Year: year
     - Model: GCM
     - state.county: combined state-county FIPS code
-    - gdd.wk10-21: projected GDD accumulated between 3 May and 25 Jul
-    - gdd.wk10-22: projected GDD accumulated between 3 May and 1 Aug
-    - gdd.wk10-23: projected GDD accumulated between 3 May and 8 Aug
-    - gdd.wk10-24: projected GDD accumulated between 3 May and 15 Aug
+    - gdd.wk10.21: projected GDD accumulated between 3 May and 25 Jul
+    - gdd.wk10.22: projected GDD accumulated between 3 May and 1 Aug
+    - gdd.wk10.23: projected GDD accumulated between 3 May and 8 Aug
+    - gdd.wk10.24: projected GDD accumulated between 3 May and 15 Aug
     - pcp.Apr: projected precipitation in April
     - pcp.May: projected precipitation in May
     - pcp.Jun: projected precipitation in June
