@@ -319,12 +319,17 @@ rstan_options(javascript = FALSE)
   names(springclim)[1:3] <- c('scenarioname','yr','modelname')
 
 #Import summer data
-  summerclim1 <- read.csv('Data/SummerClimateProjections1.csv',header=TRUE)
-  summerclim2 <- read.csv('Data/SummerClimateProjections2.csv',header=TRUE)
-  summerclim3 <- read.csv('Data/SummerClimateProjections3.csv',header=TRUE)
-  summerclim <- rbind(summerclim1,summerclim2,summerclim3)
+  summerclim1a <- read.csv('Data/SummerClimateProjections1a.csv',header=TRUE)
+  summerclim1b <- read.csv('Data/SummerClimateProjections1b.csv',header=TRUE)
+  summerclim2a <- read.csv('Data/SummerClimateProjections2a.csv',header=TRUE)
+  summerclim2b <- read.csv('Data/SummerClimateProjections2b.csv',header=TRUE)
+  summerclim3a <- read.csv('Data/SummerClimateProjections3a.csv',header=TRUE)
+  summerclim3b <- read.csv('Data/SummerClimateProjections3b.csv',header=TRUE)
+  summerclim <- rbind(summerclim1a,summerclim1b,summerclim2a,summerclim2b,
+                      summerclim3a,summerclim3b)
   names(summerclim)[1:3] <- c('scenarioname','yr','modelname')
-  rm(list=c('summerclim1','summerclim2','summerclim3'))
+  rm(list=c('summerclim1a','summerclim1b','summerclim2a','summerclim2b',
+            'summerclim3a','summerclim3b'))
   
 #Time periods
   periods <- 1:3
