@@ -2,8 +2,6 @@
 #Combining results from a retrospective population model for monarch butterflies in eastern 
 #North America (2004-2018) with projections of climate on the spring and summer breeding grounds 
 #to forecast the population's response to future climate change
-
-#Last updated: 27 April 2022
 #####################################################################################################
 
 #-----------------------------------------------------------------------------------------------------#
