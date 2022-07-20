@@ -1,8 +1,8 @@
-#  Monarch Population Forecasts
-
-### After first review
+#  Multi-season climate projections forecast declines in migratory monarch butterflies
 
 ### Erin R. Zylstra, Naresh Neupane, and Elise F. Zipkin
+
+### Global Change Biology
 
 ### Code/Data DOI: TBD
 _______________________________________________________________________________________________________________________________________
