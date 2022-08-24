@@ -2,7 +2,7 @@
 
 ### Erin R. Zylstra, Naresh Neupane, and Elise F. Zipkin
 
-### Global Change Biology
+### Global Change Biology [10.1111/gcb.16349](https://onlinelibrary.wiley.com/doi/10.1111/gcb.16349)
 
 ### Code/Data DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5597600.svg)](https://doi.org/10.5281/zenodo.5597600)
 _______________________________________________________________________________________________________________________________________
